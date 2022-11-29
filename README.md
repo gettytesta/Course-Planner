@@ -118,17 +118,17 @@ public class PlannerManager
 public static void main(String[] args)
 The main method runs a menu driven application which first creates an empty Planner object. The program prompts the user for a command to execute an operation. Once a command has been chosen, the program may ask the user for additional information if necessary, and performs the operation. The operations should be defined as follows:
 
-A - Add Course <Name> <Code> <Section> <Instructor> <Position>
+A - Add Course
 Adds a new course into the list.
-G - Get Course <Position>
+G - Get Course
 Displays information of a Course at the given position.
-R - Remove Course <Position>
+R - Remove Course
 Removes the Course at the given position.
 P - Print Courses in Planner
 Displays all courses in the list.
-F - Filter By Department Code <Code>
+F - Filter By Department Code
 Displays courses that match the given department code.
-L - Look For Course <Name> <Code> <Section> <Instructor>
+L - Look For Course
 Determines whether the course with the given attributes is in the list.
 S - Size
 Determines the number of courses in the Planner.
